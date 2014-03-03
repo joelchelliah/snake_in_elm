@@ -107,13 +107,13 @@ display (w, h) game =
       drawAgainTxt   = againTxt game |> whtTxt (Text.height 20) |> toForm |> move (0, 0 - 30)
   in  color charcoal <| container w h middle
                      <| collage width height (drawBackground
-                                               :: drawSnake game.snake.pos
-                                               :: map drawSnake game.snake.body ++
-                                                  [drawFood,
-                                                   drawBorders,
-                                                   drawScoreTxt,
-                                                   drawDeathTxt,
-                                                   drawAgainTxt])
+                                              :: drawSnake game.snake.pos
+                                              :: map drawSnake game.snake.body
+                                              ++ [drawFood,
+                                                  drawBorders,
+                                                  drawScoreTxt,
+                                                  drawDeathTxt,
+                                                  drawAgainTxt])
 
 scoreTxt g = show g.points ++ " points"
 deathTxt g = (if g.state == Over && g.points /= 0 then  "Game over" else "")
