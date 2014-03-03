@@ -4,8 +4,10 @@ Snake in Elm
 
 A simple snake game implemented in [Elm](http://elm-lang.org/), a programming language designed for functional reactive programming.  
 
-You can copy the code in **snake.elm** into the [Try Elm, online editor](http://elm-lang.org/try) to test it out.  
+You can try the game **[HERE!](http://elmsnake.herokuapp.com/)**  
+or just copy everything in **snake.elm** into the [Try Elm, online editor](http://elm-lang.org/try) to play around with the code.  
 
+![image:elm snake in action](http://imgur.com/zyCFL7H "look at him go!")
 
 Making a game in Elm
 --------------------
