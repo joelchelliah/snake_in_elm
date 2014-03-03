@@ -7,7 +7,7 @@ A simple snake game implemented in [Elm](http://elm-lang.org/), a programming la
 You can try the game **[HERE!](http://elmsnake.herokuapp.com/)**  
 or just copy everything in **snake.elm** into the [Try Elm, online editor](http://elm-lang.org/try) to play around with the code.  
 
-![image:elm snake in action](http://imgur.com/zyCFL7H "look at him go!")
+![image:elm snake in action](http://i.imgur.com/zyCFL7H.png "look at him go!")
 
 Making a game in Elm
 --------------------
